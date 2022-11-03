@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Area and Perimeter Calculator</title>
+</head>
+
+<body>
+    <div class="form login">
+        <span class="title">Area and Perimeter Calculator</span>
+
+        <form action="#" id="calculateArea" method="post">
+            <div class="input-field">
+                <!--<input type="text" placeholder="Enter your email" required-->
+                <select name="cars" id="cars">
+                    <option value="1" selected="selected">Cuadrado</option>
+                    <option value="2">Rectangulo</option>
+                    <option value="3">Triangulo</option>
+                    <option value="4">Circulo</option>
+                </select>
+            </div>
+            <div class="input-field">
+
+                <div id="parent">
+                </div>
+
+            </div>
+
+            <div class="input-field submit">
+                <input type="submit" value="Calcular area" />
+            </div>
+
+        </form>
+
+        <br>
+        <h8 id="errors"></h8> <br>
+        <span id="areaFinal"></span> <br>
+        <span id="perimetroFinal"></span> <br>
+
+        <span id="seleccion"></span> <br>
+        <canvas id="sector" width="1px" height="1px" style="background-color: white;">Su navegador no soporta canvas
+            :(</canvas>
+        <canvas id="lienzo" width="100px" height="100px">Su navegador no soporta canvas :( </canvas>
+        <canvas id="canvas"></canvas>
+
+
+
+
+    </div>
+
+    <!--div name="fruit">
+    
+    <select name="cars" id="cars">
+      <option value="1" selected="selected">Cuadrado</option>
+      <option value="2">Rectangulo</option>
+      <option value="3">Triagulo</option>
+      <option value="4">Circulo</option>
+    </select>
+  </div>
+    <h3 id="seleccion"></h3>
+
+    <form action="#" id="calculateArea" method="post">
+        <div id="parent">
+            Generated inputs:
+        </div>
+        <input type="submit" value="Calcular area" />
+    </form>
+
+    <div id="areaFinal">
+    </div>
+    <div id="perimetroFinal">
+    </div>
+
+    <canvas id="sector" width="1" height="1" style="background-color: white;">Su navegador no soporta canvas :( </canvas-->
+
+
+
+    <script src="src/script.js"></script>
+</body>
+
+</html>
